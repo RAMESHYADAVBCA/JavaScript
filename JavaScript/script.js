@@ -22,7 +22,7 @@ let job1 = "programmer";
 let job2 = "teacher";
 
 console.log(myFirstJob);
-*/
+
 
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
@@ -44,3 +44,48 @@ year = 1991;
 console.log(typeof year);
 
 console.log(typeof null);
+
+
+let age = 30;
+age = 31;
+
+const birthYear = 1991;
+//birthYear = 1990;
+//const job;
+
+var job = "Programmer";
+job = "teacher";
+
+lastName = "Yadav";
+console.log(lastName);
+*/
+/////////////////////
+// MATH OPERATORS
+
+const now = 2025;
+const ageRamesh = now - 2003;
+const ageRamakant = now - 2005;
+
+console.log(ageRamesh, ageRamakant);
+
+console.log(ageRamesh * 2, ageRamesh / 10, 2 ** 3);
+// 2**3 means 2 to the power of 3 = 2 *2 * 2
+
+const firstName = "Ramesh";
+const lastName = "Yadav";
+console.log(firstName + " " + lastName);
+
+let x = 10 + 5;
+x += 10; // x = x+ 10=25
+x *= 4; //x= x * 4= 100
+x++; //x= x + 1;
+x--;
+
+console.log(x);
+
+//comparison operators
+
+console.log(ageRamesh > ageRamakant); // >, <, >=, <=
+console.log(ageRamakant >= 18);
+const isFullAge = ageRamakant >= 15;
+console.log(now - 2003 > now - 2005);
